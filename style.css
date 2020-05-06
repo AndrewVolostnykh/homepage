@@ -1,56 +1,55 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 350px;  
-    background-image: url("assets/imgs/trumpGoodbye.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 350px;
+  background-image: url("assets/imgs/trumpGoodbye.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #avatar-position {
-    position: absolute;
-    top: 20px;
-
+  position: absolute;
+  top: 20px;
 }
 
 #thetrump {
-    color: white;
-    text-shadow:
+  color: white;
+  text-shadow:
     -5px -5px 0 #000,
     5px -5px 0 #000,
     -5px 5px 0 #000,
     5px 5px 0 #000,
-    -5px 0 0 #000000,
-    5px 0 0 #000000,
-    0 5px 0 #000000,
-    0 -5px 0 #000000;
-    font-size: 100px;
-    text-align: center;
+    -5px 0 0 #000,
+    5px 0 0 #000,
+    0 5px 0 #000,
+    0 -5px 0 #000;
+  font-size: 100px;
+  text-align: center;
 }
 
 .back {
-    position: relative;
-    z-index: 3;
-    background-image: url("assets/imgs/usaFlag.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;    
-    background-size: cover;
+  position: relative;
+  z-index: 3;
+  background-image: url("assets/imgs/usaFlag.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ingod {
-    color: white;
-    text-shadow:
+  color: white;
+  text-shadow:
     -5px -5px 0 #000,
     5px -5px 0 #000,
     -5px 5px 0 #000,
     5px 5px 0 #000,
-    -5px 0 0 #000000,
-    5px 0 0 #000000,
-    0 5px 0 #000000,
-    0 -5px 0 #000000;
-    font-size: 100px;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
+    -5px 0 0 #000,
+    5px 0 0 #000,
+    0 5px 0 #000,
+    0 -5px 0 #000;
+  font-size: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
